@@ -4,10 +4,14 @@ name: notebook
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.11
   - pandas
   - matplotlib
   - numpy
   - scikit-learn 
+  - scipy
+  - statsmodels
   - pip
   - pip:
+    - seaborn
+    - openpyxl
