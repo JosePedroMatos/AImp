@@ -11,7 +11,11 @@ dependencies:
   - scikit-learn 
   - scipy
   - statsmodels
+  - pymoo
+  - ipykernel
   - pip
   - pip:
     - seaborn
     - openpyxl
+    - cma
+    - jupyterlab
